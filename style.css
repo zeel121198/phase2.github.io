@@ -1,0 +1,90 @@
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 16px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .text {
+   
+    border: black;
+    border-style: solid;
+
+    border-radius: 2%;
+    width: 80%;
+    padding: 15px;
+    float: left;
+    font-size: 20px;
+    background-color: lightcyan;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  .button:hover {
+    background-color: #bbb;
+  }
+  body {
+    background-color: ghostwhite;
+    color: white;
+  }
+  
+  h1 {
+    background-color: darkgoldenrod;
+    color: white;
+
+  }
+
+  
+  ul li {
+    cursor: pointer;
+
+    padding: 14px 10px 14px 44px;
+    background: lightskyblue;
+    font-size: 30px;
+    transition: 0.2s;
+    font-family: "Lucida Console", Courier, monospace;
+  
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: lightslategrey;
+  }
+  
+  
+  ul li:hover {
+    background: lightseagreen;
+  }
+
+ 
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 4px 4px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 30px;
+    width: 12px;
+  }
+  .header {
+    background-color: lemonchiffon;
+    padding: 50px 50px;
+    color: white;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  ul {
+    margin: 20px;
+    padding: 30px;
+  }
+  
